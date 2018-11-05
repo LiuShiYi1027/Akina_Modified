@@ -1,0 +1,24 @@
+/*
+Theme Name: Avada
+Description: The #1 selling theme of all time that allows you to build virtually any design style.
+Author: ThemeFusion
+Theme URI: http://avada.theme-fusion.com/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 5.5.1
+License: Themeforest Split Licence
+License URI: -
+Text Domain: Avada
+*/
+@font-face{font-family:djicomoon;src:url(assets/css/fonts/icomoon.eot?ec2lum);src:url(assets/css/fonts/icomoon.eot?ec2lum#iefix) format('embedded-opentype'),url(assets/css/fonts/icomoon.ttf?ec2lum) format('truetype'),url(assets/css/fonts/icomoon.woff?ec2lum) format('woff'),url(assets/css/fonts/icomoon.svg?ec2lum#icomoon) format('svg');font-weight:400;font-style:normal}.fusion-icon-baidu:before,.fusion-icon-qq:before,.fusion-icon-renren:before,.fusion-icon-tqq:before,.fusion-icon-weibo:before,.fusion-icon-weixin:before{font-family:djicomoon!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fusion-icon-weibo:before{content:"\f18a"}.fusion-icon-renren:before{content:"\f18b"}.fusion-icon-baidu:before{content:"\f1b0"}.fusion-icon-tqq:before{content:"\f1d5"}.fusion-icon-qq:before{content:"\f1d6"}.fusion-icon-weixin:before{content:"\f1d7"}
+#share{margin-top:25px;float:right}
+#share a{width:40px;height:40px;padding:0;margin:6px 3px}
+#share a.bds_more{background:url(assets/images/share.png) no-repeat;}
+#share a.bds_qzone{background:url(assets/images/qzone.png) no-repeat;}
+#share a.bds_tsina{background:url(assets/images/tsina.png) no-repeat;}
+#share a.bds_renren{background:url(assets/images/renren.png) no-repeat;}
+#share a.bds_weixin{background:url(assets/images/weixin.png) no-repeat;}
+/* Classes needed by Theme Check */
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor {
+}

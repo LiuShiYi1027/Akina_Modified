@@ -1,0 +1,99 @@
+/* about */
+
+@media all and (min-width: 769px) {
+    .main{
+        padding-bottom: 0px;
+        padding-top: 50px;
+    }
+    .footer{
+        margin-top: 0px;
+    }
+    .main-inner{
+        min-height: 500px;
+        position: relative;
+    }
+
+    .right{
+        float: right;
+    }
+    .photo{
+        height: 450px;
+    }
+    .slogan{
+        font-family: "微软雅黑";
+        display: block;
+        position: relative;
+        top:-130px;
+        font-size:79px;  line-height: 85px;
+        font-weight: 600;  color: #a3a3a3;
+    }
+    .info{
+        line-height: 2;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .social{
+        margin-top: 100px;
+    }
+    .social>ul {
+        padding-left: 0;
+    }
+    .social>ul>li{
+        list-style: none;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        position: relative;
+    }
+    .social>ul>li+li{
+        margin-left: 4px;
+    }
+
+    .qr_container{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left: -42px;
+        display: none;
+    }
+    @keyframes show_animate {
+        0%{
+            margin-top: 40px;
+            opacity: 0.01;
+        }
+
+        100%{
+            margin-top: 5px;
+            opacity: 1;
+        }
+
+    }
+
+    .show{
+        margin-top: 5px;
+        display: block!important;
+        animation: show_animate 0.5s !important;
+    }
+    .show>img.qr{
+        max-height: 100%;
+    }
+    .main-inner>.left,
+    .main-inner>.right {
+        display: inline-block;
+        width: 50%;
+    }
+}
+@media all and(max-width: 768px){
+    .main-inner>.left,
+    .main-inner>.right {
+        display:block;
+        width: 80%;
+        margin: 0 auto;
+        float: none!important;
+        text-align: center;
+    }
+    .left>img{
+        display: inline-block!important;
+    }
+
+}
