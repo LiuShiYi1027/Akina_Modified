@@ -15,7 +15,7 @@ get_header();
 ?>
    
 	<div class="notice">
-	   <i class="iconfont">&#xe607;</i> : 
+	   <i class="iconfont">&#xe638;</i> :
 		<div class="notice-content">
 		<?php echo akina_option('notice_title');?>
 		</div>
@@ -26,11 +26,9 @@ get_header();
 				get_template_part('layouts/feature');
 			}
 	?>
-	
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">	
-		<h2 class="main-title">近况</h2>
+		<h1 class="main-title">近况</h1>
 		<?php
 		if ( have_posts() ) :
 
@@ -55,7 +53,7 @@ get_header();
 			endwhile; ?>
 
 			<nav class="navigator">
-        <?php previous_posts_link('<i class="iconfont">&#xe611;</i>') ?><?php next_posts_link('<i class="iconfont">&#xe60f;</i>') ?>
+        <?php previous_posts_link('<i class="iconfont">&#xe630;</i>') ?><?php next_posts_link('<i class="iconfont">&#xe634;</i>') ?>
 	</nav>	
 		
 
@@ -66,8 +64,6 @@ get_header();
 		endif; ?>
 		
 		</main><!-- #main -->
-		
-		 <div id="pagination"><?php next_posts_link(__('加载更多')); ?></div>
 		 
 	</div><!-- #primary -->
 
