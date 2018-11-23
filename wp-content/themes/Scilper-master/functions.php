@@ -860,4 +860,9 @@ function my_custom_init() { $labels = array( 'name' => '说说',
 'capability_type' => 'post', 'has_archive' => true, 'hierarchical' => false, 
 'menu_position' => null, 'supports' => array('title','editor','author') ); 
 register_post_type('shuoshuo',$args); }
+<<<<<<< HEAD
 //code end 
+=======
+
+//code end 
+>>>>>>> 68210af1f97d7caf0a8294b490874f53dd080037

@@ -178,7 +178,11 @@ get_header();
             <li>
                 <time class="cbp_tmtime"><i class="fa fa-clock-o"></i> <?php the_time('Y年n月j日G:i'); ?></time>
                 <div class="cbp_tmicon">
+<<<<<<< HEAD
                 <img src="http://pig5op3vd.bkt.clouddn.com/wp-content/uploads/2018/10/icon.jpeg" alt="说说页面的更新" class="avatar avatar-48" width="48" height="48">
+=======
+                <img src="http://pdj9zqchw.bkt.clouddn.com/wp-content/uploads/2018/08/59f5a08404b4b6e.jpg" alt="说说页面的更新" class="avatar avatar-48" width="48" height="48">
+>>>>>>> 68210af1f97d7caf0a8294b490874f53dd080037
                 </div>
                 <div class="cbp_tmlabel" >
                     <span style="font-size:14px;"><?php the_content(); ?></span>
@@ -193,4 +197,8 @@ get_header();
 </div>
 <?php get_sidebar(); ?>
 </section>
+<<<<<<< HEAD
 <?php get_footer();?>
+=======
+<?php get_footer();?>
+>>>>>>> 68210af1f97d7caf0a8294b490874f53dd080037
